@@ -69,6 +69,9 @@
 		&_main{
 			width: 260px;
 		}
+		&_submit{
+			width: 100%;
+		}
 	}
 	.label{
 		font-size: 28px;
@@ -91,6 +94,11 @@
 		}
 		&__icon-wrapper{
 			height: 100px;
+		}
+	}
+	.consultation{
+		&__descr{
+			font-size: 18px;
 		}
 	}
 }
