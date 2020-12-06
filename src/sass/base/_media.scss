@@ -14,6 +14,16 @@
 			font-size: 16px;
 		}
 	}
+	.carousel {
+		&__inner{
+			width: 600px;
+		}
+	}
+	.catalog{
+		&__content{
+			justify-content: space-around;
+		}
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -42,6 +52,17 @@
 	.advantages{
 		&__icon{
 			width: 100px;
+		}
+	}
+	.carousel {
+		&__inner{
+			width: 380px;
+		}
+	}
+	.catalog{
+		&__tab{
+			font-size: 12px;
+			width: 125px;
 		}
 	}
 }
@@ -99,6 +120,17 @@
 	.consultation{
 		&__descr{
 			font-size: 18px;
+		}
+	}
+	.carousel {
+		&__inner{
+			width: 300px;
+		}
+	}
+	.catalog{
+		&__tab{
+			font-size: 8px;
+			width: 80px;
 		}
 	}
 }
