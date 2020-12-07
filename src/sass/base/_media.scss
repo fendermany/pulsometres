@@ -24,6 +24,26 @@
 			justify-content: space-around;
 		}
 	}
+	.reviews{
+		&__item{
+			display: block;
+		}
+		&__img{
+			margin: 0 auto;
+		}
+		&__descr{
+			h4, h5{
+				text-align: center;
+			}
+			h4{
+				margin-top: 20px;
+				margin-bottom: 0;
+			}
+			h5{
+				margin-top: 0;
+			}
+		}
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -63,6 +83,11 @@
 		&__tab{
 			font-size: 12px;
 			width: 125px;
+		}
+	}
+	.reviews{
+		&__descr{
+			width: 380px;
 		}
 	}
 }
@@ -131,6 +156,20 @@
 		&__tab{
 			font-size: 8px;
 			width: 80px;
+		}
+	}
+	.reviews{
+		&__descr{
+			width: 300px;
+			font-size: 14px;
+		}
+		.title{
+			font-size: 28px;
+		}
+	}
+	.footer{
+		&__info{
+			width: 300px;
 		}
 	}
 }
