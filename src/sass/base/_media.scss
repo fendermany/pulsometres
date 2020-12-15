@@ -90,6 +90,24 @@
 			width: 380px;
 		}
 	}
+	.feed-form{
+		width: 250px;
+	}
+	.footer{
+		&__info{
+			width: 100%;
+		}
+	}
+	.modal{
+		padding: 40px 25px;
+		width: 300px;
+		&__subtitle{
+			font-size: 15px;
+		}
+		&__descr{
+			font-size: 12px;
+		}
+	}
 }
 
 @media (max-width: 424.98px) {
