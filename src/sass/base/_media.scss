@@ -1,3 +1,12 @@
+@media (max-width: 1200px){
+	.promo{
+		background: url(../../images/bg_woman.png) no-repeat 20%/cover;
+	}
+}
+
+
+
+
 @media (max-width: 991.98px) {
 	.container {
 		max-width: 700px;
@@ -149,6 +158,9 @@
 		&__icon{
 			margin-top: 25px;
 			width: 80%;
+			img{
+				margin-bottom: 10px;
+			}
 		}
 		&__title{
 			margin-top: 5px;
